@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Neqi - Cheveux Réparés en 7 Jours</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+  <header class="bg-gradient-to-r from-pink-500 to-red-500 text-white py-6 text-center">
+    <h1 class="text-3xl font-bold">Studio Neqi</h1>
+    <p class="mt-2 text-lg">Le soin capillaire professionnel pour réparer vos cheveux en 7 jours</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <section class="grid md:grid-cols-2 gap-6 items-center">
+      <img src="https://example.com/neqi-product.jpg" alt="Neqi Peptide Power" class="rounded-2xl shadow-lg" />
+      <div>
+        <h2 class="text-2xl font-semibold mb-2">Neqi Peptide Power - Traitement Réparateur</h2>
+        <p class="mb-4">Découvrez le secret des coiffeurs parisiens pour des cheveux doux, brillants et renforcés. Ce soin est formulé avec des peptides avancés pour restaurer la structure de vos cheveux dès la première semaine.</p>
+        <ul class="list-disc list-inside text-sm text-gray-700 mb-4">
+          <li>Répare les pointes abîmées</li>
+          <li>Renforce les longueurs</li>
+          <li>Convient à tous types de cheveux</li>
+        </ul>
+        <div class="bg-yellow-100 p-4 rounded-xl mb-4">
+          <p class="text-sm font-medium">🎁 OFFRE EXCLUSIVE : Recevez un peigne en bambou + un guide PDF gratuit avec votre commande.</p>
+        </div>
+        <p class="text-3xl font-bold text-pink-600 mb-2">24,90 €</p>
+        <a href="#commande" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-xl">Commander maintenant</a>
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h3 class="text-xl font-semibold mb-4">Résultats réels, clients satisfaits</h3>
+      <div class="grid md:grid-cols-3 gap-4">
+        <img src="https://example.com/before-after1.jpg" alt="Avant / Après" class="rounded-lg" />
+        <img src="https://example.com/before-after2.jpg" alt="Avant / Après" class="rounded-lg" />
+        <img src="https://example.com/before-after3.jpg" alt="Avant / Après" class="rounded-lg" />
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h3 class="text-xl font-semibold mb-4 text-center">🎬 Témoignage Vidéo</h3>
+      <div class="flex justify-center">
+        <video controls class="rounded-xl shadow-lg w-full md:w-2/3">
+          <source src="https://example.com/tiktok-neqi.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la lecture de vidéo.
+        </video>
+      </div>
+    </section>
+
+    <section id="commande" class="mt-12 bg-gray-50 p-6 rounded-2xl shadow">
+      <h3 class="text-xl font-bold mb-4 text-center">📦 Commander maintenant</h3>
+      <form class="grid gap-4 md:grid-cols-2">
+        <input type="text" placeholder="Prénom" class="border p-2 rounded-lg" required />
+        <input type="text" placeholder="Nom" class="border p-2 rounded-lg" required />
+        <input type="email" placeholder="Adresse email" class="border p-2 rounded-lg md:col-span-2" required />
+        <input type="text" placeholder="Adresse complète" class="border p-2 rounded-lg md:col-span-2" required />
+        <input type="text" placeholder="Téléphone" class="border p-2 rounded-lg md:col-span-2" required />
+        <select class="border p-2 rounded-lg md:col-span-2" required>
+          <option value="">Pays de livraison</option>
+          <option value="France">France</option>
+          <option value="Arabie Saoudite">Arabie Saoudite</option>
+        </select>
+        <button type="submit" class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-xl md:col-span-2">Valider la commande</button>
+      </form>
+    </section>
+
+    <section class="mt-12 text-center">
+      <p class="text-sm text-gray-600">Produit introuvable en magasin - Distribution exclusive Studio Neqi</p>
+      <p class="text-sm text-gray-500">Livraison rapide en France & Arabie Saoudite</p>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 text-center py-4 mt-12 text-sm text-gray-500">
+    © 2025 Studio Neqi. Tous droits réservés.
+  </footer>
+</body>
+</html>
